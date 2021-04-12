@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* This is a test CSS file for Eric Medina Velez's assignment for HUW166. */
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: #333333;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color:#4a4c4d;
+}
+h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color:#8c569c;
+}
+blockquote{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#333333
+}
+body{
+    background:#bdb8bd;
+}
+div{
+    width:720px;
+    background:white;
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    border-width:10px;
+    border-style:dashed;
+    border-color:darkgray;
+}
