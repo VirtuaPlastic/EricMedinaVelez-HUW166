@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* This is a test CSS file for Eric Medina Velez's assignment for HUW166. */
+
+h1{
+    font-size: 25px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-family: 'Open Sans Condensed', sans-serif, Verdana, Geneva, Tahoma;
+    text-align:center;
+}
+h2{
+    font-size: 21px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-family: 'Open Sans Condensed', sans-serif, Verdana, Geneva, Tahoma;
+    text-align:center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+h3{
+    font-size: 18px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-family: 'Open Sans Condensed', sans-serif, Verdana, Geneva, Tahoma;
+    text-align:left;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+h4{
+  color:#ffffff;
+  text-transform:uppercase;
+  font-family: 'Open Sans Condensed', sans-serif, Verdana, Geneva, Tahoma;
+  text-align:left;
+  padding-top: 20px;
+}
+p{
+   font-size:15px;
+    color: #ffffff;
+    line-height:28px;
+}
+ol.c {
+  list-style-type: upper-roman;
+  font-family:sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 12px;
+    line-height: 22px;
+    color:#ffffff;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#3c4043;
+}
+img{
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    max-width: 1080px;
+    margin: auto;
+    padding: 25px;
+    background-color:#3c4043;
+}
+p{
+    font-family:sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 12px;
+    line-height: 22px;
+    color:#ffffff;
+}
+a{
+    font-family:sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 12px;
+     line-height: 22px;
+     color:#ffffff;
+}
+a:after {
+	content: " ";
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transition: all 0.2s ease-out;
+  }
+  a:before {
+	content: " ";
+	width: 4px;
+	height: 4px;
+	position: absolute;
+	right: -4px;
+	bottom: 0;
+	opacity: 0;
+}
+a:hover {
+	text-decoration: underline;
+	transition: all 0.1s ease-out;
+	padding: 2px 4px;
+}
+a:hover:after {
+  width: 0px;
+  transition: all 0.1s ease-out;
+}
+a:hover:before {
+  opacity: 1;
+  animation: blink 0.4s infinite 0.1s;
+  transition: all 0.1s ease-out;
+}
+	@keyframes blink {
+		0% {
+		  opacity: 1;
+		}
+		50% {
+		  opacity: 0;
+		}
+		100% {
+		  opacity: 1;
+		}
+	  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #footer {
+    width: auto;
+    margin-left: center;
+    margin-right: center;
+    font-family:sans-serif, Verdana, Geneva, Tahoma;
+    color: #ffffff;
+    font-size: 10px;
+    border-top: 1px solid #ddd;
+  }
+  .imgLeft {
+    float: left;
+    margin-right: 15px;
+  }
+  .imgRight {
+    float: right;
+    margin-left: 15px;
+  }
+  .responsiveRight {
+    max-width:100%;
+    height:auto;
+    float: right;
+    margin-left: 15px;
+  
+  }
+  .responsiveMiddle {
+    max-width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr {
+    font-family:sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 12px;
+    line-height: 22px;
+    color:#ffffff;
+  }
+iframe {
+  max-width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+  
+  
